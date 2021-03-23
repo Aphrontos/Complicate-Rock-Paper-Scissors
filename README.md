@@ -76,14 +76,14 @@ But, unfortunately, some information was lost.
 The variant code isn't known without calculating anymore. 
 To fix this:
 
-X     | X     | 1 | 2 | 3 | 4 | 5
------ | ----- | - | - | - | - | -
-**X** | **X** | 2 | 1 | 3 | 4 | 5
-**1** | 2     | D | L | W | W | L
-**2** | 1     | W | D | W | L | L
-**3** | 3     | L | L | D | W | W
-**4** | 4     | L | W | L | D | W
-**5** | 5     | W | W | L | L | D
+X     | X     |  1  |  2  |  3  |  4  |  5
+----- | ----- | --- | --- | --- | --- | ---
+**X** | **X** | *2* | *1* | *3* | *4* | *5*
+**1** | *2*   |  D  |  L  |  W  |  W  |  L
+**2** | *1*   |  W  |  D  |  W  |  L  |  L
+**3** | *3*   |  L  |  L  |  D  |  W  |  W
+**4** | *4*   |  L  |  W  |  L  |  D  |  W
+**5** | *5*   |  W  |  W  |  L  |  L  |  D
 
 The column and row in bold are the weapon names, while the column and row in italics are the variant code.
 
