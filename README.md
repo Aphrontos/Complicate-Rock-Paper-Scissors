@@ -98,11 +98,11 @@ So in general, for n weapons, there are (n-1)! SW chart variations.
 1. Install Python and Jupyter Notebook.
 2. Download the Jupyter Notebook. Make sure your Python version is at least 3.9
 3. Make sure the following packages are installed:
- * numpy
- * matplotlib
- * networkx
- * pandas
- * random
+    * numpy
+    * matplotlib
+    * networkx
+    * pandas
+    * random
 4. Run the Notebook. The Notebook will guide you through the step by step process.
 
 # TO-DO
