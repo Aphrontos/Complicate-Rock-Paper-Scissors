@@ -108,3 +108,4 @@ So in general, for n weapons, there are (n-1)! SW chart variations.
 # TO-DO
 
 1. Fix the generation of the strenghts and weaknesses graph.
+2. Make a better UI
