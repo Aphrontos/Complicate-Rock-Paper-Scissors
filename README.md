@@ -29,7 +29,7 @@ X            | Paper | Rock | Scissors
 **Rock**     | W	   | D	  | L
 **Scissors** | L	   | W	  | D
 
-As is, this table is the same as the above table, so we need to relabel the column and row headers:
+As is, this table is the same as the above table, so relabelling the column and row headers is needed:
 
 X            | Rock | Paper | Scissors
 ------------ | ---- | ----- | --------
@@ -37,7 +37,11 @@ X            | Rock | Paper | Scissors
 **Paper**    | W    | D     | L
 **Scissors** | L    | W     | D
 
-As you can see, this doesn’t really make any sense. So relabeling again so that the weapons have numbers as names:
+The above SW Chart doesn't really make any sense to the average person. 
+So another relabelling is needed. 
+What's the most neutral way to name categories? 
+With numbers of course! 
+So relabelling the weapons to have numbers as names:
 
 X     | 1 | 2 | 3
 ----- | - | - | -
@@ -55,7 +59,8 @@ X     | 1 | 2 | 3 | 4 | 5
 **4** | W | L | L | D | W
 **5** | W | W | L | L | D
 
-The above is the "base" 5 weapon SW chart. As discussed earlier, each weapon is weak to 2 other and strong against the remaining 2.
+The above is the "base" 5-weapon SW chart. 
+As discussed earlier, each weapon is weak to 2 other and strong against the remaining 2.
 
 If the rows and columns are rearranged and headers are relabeled, this gives a new but fair SW chart.
 
@@ -67,7 +72,9 @@ X     | 1 | 2 | 3 | 4 | 5
 **4** | L | W | L | D | W
 **5** | W | W | L | L | D
 
-But, unfortunately, we lost information. We don't know the variant code any more. To fix this:
+But, unfortunately, some information was lost. 
+The variant code isn't known without calculating anymore. 
+To fix this:
 
 X     | X     | 1 | 2 | 3 | 4 | 5
 ----- | ----- | - | - | - | - | -
@@ -80,7 +87,7 @@ X     | X     | 1 | 2 | 3 | 4 | 5
 
 The column and row in bold are the weapon names, while the column and row in italics are the variant code.
 
-Now, given this you may think that there would be 5! variations, but no there are actually only 4! variations, since each variation has 5 rotations.
+Now, given this, there may seem to be 5! variations, but no there are actually only 4! variations, since each variation has 5 rotations.
 For example: 12345 and 23451 are the same SW chart because they're rotations of each other.
 So in general, for n weapons, there are (n-1)! SW chart variations.
 
