@@ -121,10 +121,12 @@ X  | X  | X  | X  | X
 Then this decribes a directed graph. Specifically the SW chart for the respective variant code.
 
 # Patch Notes:
-1.0 Initial Commit
+## 1.0 
+* Initial Commit
 
-1.1 Fixed the Strengths and Weaknesses Chart
-    Refactored the code such that the string form of the variant codes is calculated from the list form.
+## 1.1 
+* Fixed the Strengths and Weaknesses Chart
+* Refactored the code such that the string form of the variant codes is calculated from the list form.
 
 # USAGE
 ## Offline
