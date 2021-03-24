@@ -95,6 +95,9 @@ So in general, for n weapons, there are (n-1)! SW chart variations.
 # Patch Notes:
 1.0 Initial Commit
 
+1.1 Fixed the Strengths and Weaknesses Chart
+    Refactored the code such that the string form of the variant codes is calculated from the list form.
+
 # USAGE
 1. Install Python and Jupyter Notebook.
 2. Download the Jupyter Notebook. Make sure your Python version is at least 3.9
