@@ -62,7 +62,7 @@ X     | 1 | 2 | 3 | 4 | 5
 **4** | W | L | L | D | W
 **5** | W | W | L | L | D
 
-The above is the "base" 5-weapon SW Adjacency. 
+The above is the "base" 5-weapon SWLAM. 
 As discussed earlier, each weapon is weak to 2 other and strong against the remaining 2.
 
 If the rows and columns are rearranged and headers are relabeled, this gives a new but fair SWLAM.
