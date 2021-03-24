@@ -91,7 +91,7 @@ X     | X     |  1  |  2  |  3  |  4  |  5
 The column and row in bold are the weapon names, while the column and row in italics are the variant code.
 
 Now, given this, there may seem to be 5! variations, but no there are actually only 4! variations, since each variation has 5 rotations.
-For example: 12345 and 23451 are the same SW chart because they're rotations of each other.
+For example: 12345 and 23451 are the same SWLAM because they're rotations of each other.
 So in general, for n weapons, there are (n-1)! SWLAM variations.
 
 Now, why is a SWLAM an "adjacency matrix"? 
