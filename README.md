@@ -118,7 +118,7 @@ X  | X  | X  | X  | X
 -1 | 1  | -1 | 0  | 1
 1  | 1  | -1 | -1 | 0
 
-Then this decribes a mathematical graph. Specifically the SW chart for the respective variant code.
+Then this decribes a directed graph. Specifically the SW chart for the respective variant code.
 
 # Patch Notes:
 1.0 Initial Commit
