@@ -14,7 +14,9 @@ A rock-paper-scissors variant must have:
 
 The "up to rotation" part will be explained later.
 
-SW chart of Normal rock-paper-scissors:
+Throughtout the guide, SW Labeled Adjacency Matrices (SWLAMs) will be used. Why? Because explaining how the variants work will be so much easier.
+
+The SWLAM of the traditional rock-paper-scissors:
 
 X            | Rock | Paper | Scissors
 ------------ | ---- | ----- | --------
@@ -22,15 +24,15 @@ X            | Rock | Paper | Scissors
 **Paper**    | L    | D     | W
 **Scissors** | W    | L     | D
 
-Variant:
+The SWLAM of a variant:
 
 X            | Paper | Rock | Scissors
 ------------ | ----- | ---- | --------
-**Paper**    | D	   | L	  | W
-**Rock**     | W	   | D	  | L
-**Scissors** | L	   | W	  | D
+**Paper**    | D	    | L	   | W
+**Rock**     | W	    | D	   | L
+**Scissors** | L	    | W	   | D
 
-As is, this table is the same as the above table, so relabelling the column and row headers is needed:
+As is, this SWLAM describes the same variant as the above SWLAM, so relabelling the column and row headers is needed:
 
 X            | Rock | Paper | Scissors
 ------------ | ---- | ----- | --------
@@ -38,7 +40,7 @@ X            | Rock | Paper | Scissors
 **Paper**    | W    | D     | L
 **Scissors** | L    | W     | D
 
-The above SW Chart doesn't really make any sense to the average person. 
+The above SWLAM doesn't really make any sense to the average person. 
 So another relabelling is needed. 
 What's the most neutral way to name categories? 
 With numbers of course! 
@@ -60,10 +62,10 @@ X     | 1 | 2 | 3 | 4 | 5
 **4** | W | L | L | D | W
 **5** | W | W | L | L | D
 
-The above is the "base" 5-weapon SW chart. 
+The above is the "base" 5-weapon SW Adjacency. 
 As discussed earlier, each weapon is weak to 2 other and strong against the remaining 2.
 
-If the rows and columns are rearranged and headers are relabeled, this gives a new but fair SW chart.
+If the rows and columns are rearranged and headers are relabeled, this gives a new but fair SWLAM.
 
 X     | 1 | 2 | 3 | 4 | 5
 ----- | - | - | - | - | -
@@ -74,7 +76,7 @@ X     | 1 | 2 | 3 | 4 | 5
 **5** | W | W | L | L | D
 
 But, unfortunately, some information was lost. 
-The variant code isn't known without calculating anymore. 
+The variant code isn't known anymore. It has to be calculated for. 
 To fix this:
 
 X     | X     |  1  |  2  |  3  |  4  |  5
@@ -90,7 +92,33 @@ The column and row in bold are the weapon names, while the column and row in ita
 
 Now, given this, there may seem to be 5! variations, but no there are actually only 4! variations, since each variation has 5 rotations.
 For example: 12345 and 23451 are the same SW chart because they're rotations of each other.
-So in general, for n weapons, there are (n-1)! SW chart variations.
+So in general, for n weapons, there are (n-1)! SWLAM variations.
+
+Now, why is a SWLAM an "adjacency matrix"? 
+Well, if the only portion with the Ws, Ds, and Ls are taken:
+
+X | X | X | X | X
+- | - | - | - | -
+D | L | W | W | L
+W | D | W | L | L
+L | L | D | W | W
+L | W | L | D | W
+W | W | L | L | D
+
+And relabel them such that:
+* W → 1
+* D → 0
+* L → -1
+
+X  | X  | X  | X  | X
+-- | -- | -- | -- | --
+0  | -1 | 1  | 1  | -1
+1  | 0  | 1  | -1 | -1
+-1 | -1 | 0  | 1  | 1
+-1 | 1  | -1 | 0  | 1
+1  | 1  | -1 | -1 | 0
+
+Then this decribes a mathematical graph. Specifically the SW chart for the respective variant code.
 
 # Patch Notes:
 1.0 Initial Commit
