@@ -146,5 +146,4 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 
 # TO-DO
 
-1. Fix the generation of the strenghts and weaknesses graph.
-2. Make a better UI
+1. Make a better UI
