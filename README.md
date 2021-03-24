@@ -127,6 +127,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
     Refactored the code such that the string form of the variant codes is calculated from the list form.
 
 # USAGE
+## Offline
 1. Install Python and Jupyter Notebook.
 2. Download the Jupyter Notebook. Make sure your Python version is at least 3.9
 3. Make sure the following packages are installed:
@@ -135,6 +136,12 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
     * networkx
     * pandas
     * random
+4. Run the Notebook. The Notebook will guide you through the step by step process.
+
+## Online
+1. Download Ǹolaniirrarat.ipynb from this repository
+2. Go to https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+3. On the Upload tab, find the notebook in your machine.
 4. Run the Notebook. The Notebook will guide you through the step by step process.
 
 # TO-DO
