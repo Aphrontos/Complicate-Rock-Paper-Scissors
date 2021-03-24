@@ -143,7 +143,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 ## Online
 1. Download Ǹolaniirrarat.ipynb from this repository
 2. Go to https://colab.research.google.com/notebooks/intro.ipynb#recent=true
-3. On the Upload tab, find the notebook in your machine.
+3. On the Upload tab, navigatate to where the notebook was saved in your machine.
 4. Run the Notebook. The Notebook will guide you through the step by step process.
 
 # TO-DO
