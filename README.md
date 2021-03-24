@@ -131,7 +131,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 # USAGE
 ## Offline
 1. Install Python and Jupyter Notebook.
-2. Download the Jupyter Notebook. Make sure your Python version is at least 3.9
+2. Download Ǹolaniirrarat.ipynb from this repository. Make sure your Python version is at least 3.9
 3. Make sure the following packages are installed:
     * numpy
     * matplotlib
