@@ -1,6 +1,6 @@
 # Introduction
 
-Ǹolaniirrarat [ŋo̞̼.lä<sup>β</sup>.niːɹ.ɹä<sup>β</sup>.ɹä<sup>β</sup>t] is Koiné Gilis for "Odd Cyclic Weapons."
+Ǹolaniirrarat [ŋo̞̼.lä<sup>β</sup>.niːɹ.ɹä<sup>β</sup>.ɹä<sup>β</sup>t] is Koiné Gilis for "Odd Cyclic Weapons."
 The traditional game of rock paper scissors only has 3 weapons. 
 Have you ever wondered how a variant with more than 3 weapons work, but are too lazy to compute the strength and weaknesses?
 Well wonder no long, since this code generalizes the game to any variant that has a fair strengths and weaknesses (SW) chart up to rotation.
@@ -120,7 +120,7 @@ X  | X  | X  | X  | X
 
 Then this decribes a directed graph. Specifically the SW chart for the respective variant code.
 
-# Patch Notes:
+# Patch Notes
 ## 1.0 
 * Initial Commit
 
@@ -145,7 +145,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 # USAGE
 ## Offline
 1. Install Python and Jupyter Notebook.
-2. Download Ǹolaniirrarat.ipynb from this repository. Make sure your Python version is at least 3.9
+2. Download Ǹolaniirrarat.ipynb from this repository. Make sure your Python version is at least 3.9
 3. Make sure the following packages are installed:
     * numpy
     * matplotlib
@@ -156,7 +156,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 5. Run the Notebook. The Notebook will guide you through the step by step process.
 
 ## Online
-1. Download Ǹolaniirrarat.ipynb from this repository
+1. Download Ǹolaniirrarat.ipynb from this repository
 2. Go to https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 3. On the Upload tab, navigatate to where the notebook was saved in your machine.
 4. Run the Notebook. The Notebook will guide you through the step by step process.
