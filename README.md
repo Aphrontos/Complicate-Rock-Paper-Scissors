@@ -151,8 +151,9 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
     * matplotlib
     * networkx
     * pandas
-    * random
-4. Run the Notebook. The Notebook will guide you through the step by step process.
+    * random import
+    * numba
+5. Run the Notebook. The Notebook will guide you through the step by step process.
 
 ## Online
 1. Download Ǹolaniirrarat.ipynb from this repository
