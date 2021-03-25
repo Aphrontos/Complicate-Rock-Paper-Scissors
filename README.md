@@ -139,7 +139,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 * Added Player class, but is unused
 
 ## 1.4
-* The Player class is now used in judge() adn other places
+* The Player class is now used in judge() and other places
 
 # USAGE
 ## Offline
