@@ -134,6 +134,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 * Please ignore Numba's deprecation warnings about reflected lists
 
 ## 1.3
+* Solved the useless warnings
 * Increased the display size of the SW Chart
 * Added the choice to change the amount of weapons
 * Added Player class, but is unused
