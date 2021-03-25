@@ -136,7 +136,10 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 ## 1.3
 * Increased the display size of the SW Chart
 * Added the choice to change the amount of weapons
-* Added Player class
+* Added Player class, but is unused
+
+## 1.4
+* The Player class is now used in judge()
 
 # USAGE
 ## Offline
