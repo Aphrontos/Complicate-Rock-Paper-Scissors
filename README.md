@@ -125,13 +125,17 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 * Initial Commit
 
 ## 1.1 
-* Fixed the Strengths and Weaknesses Chart
-* Refactored the code such that the string form of the variant codes is calculated from the list form.
+* Fixed the SW Chart
+* Refactored the code such that the string form of the variant codes is calculated from the list form
 
 ## 1.2
 * Made the random generation of new variant codes much faster
-* Functions that are able now use the Numba decorator @jit with nopython set to True to speed up.
-* Please ignore Numba's deprecation warnings about reflected lists.
+* Functions that are able now use the Numba decorator @jit with nopython set to True to speed up
+* Please ignore Numba's deprecation warnings about reflected lists
+
+## 1.3
+* Increased the display size of the SW Chart
+* Added the choice to change the amount of weapons
 
 # USAGE
 ## Offline
