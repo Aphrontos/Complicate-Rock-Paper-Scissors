@@ -128,6 +128,11 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 * Fixed the Strengths and Weaknesses Chart
 * Refactored the code such that the string form of the variant codes is calculated from the list form.
 
+## 1.2
+* Made the random generation of new variant codes much faster
+* Functions that are able now use the Numba decorator @jit(nopython=True) to speed up.
+* Please ignore Numba's deprecation warnings about reflected lists.
+
 # USAGE
 ## Offline
 1. Install Python and Jupyter Notebook.
