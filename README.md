@@ -130,7 +130,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 
 ## 1.2
 * Made the random generation of new variant codes much faster
-* Functions that are able now use the Numba decorator @jit(nopython=True) to speed up.
+* Functions that are able now use the Numba decorator @jit with nopython set to True to speed up.
 * Please ignore Numba's deprecation warnings about reflected lists.
 
 # USAGE
