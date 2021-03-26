@@ -163,4 +163,5 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 
 # TO-DO
 
-1. Make a better UI
+1. Allow renaming of weapons and how each beat one another
+2. Make a better UI
