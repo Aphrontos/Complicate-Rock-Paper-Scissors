@@ -97,7 +97,7 @@ So in general, for n weapons, there are (n-1)! SWLAM variations.
 Now, why is a SWLAM an "adjacency matrix"? 
 Well, if the only portion with the Ws, Ds, and Ls are taken:
 
- X  |  X  |  X  |  X  |  X
+　 | 　 | 　 | 　 | 　
 --- | --- | --- | --- | ---
  D  |  L  |  W  |  W  |  L
  W  |  D  |  W  |  L  |  L
@@ -110,7 +110,7 @@ And relabel them such that:
 * D → 0
 * L → -1
 
-X  | X  | X  | X  | X
+　 | 　 | 　 | 　 | 　
 -- | -- | -- | -- | --
 0  | -1 | 1  | 1  | -1
 1  | 0  | 1  | -1 | -1
