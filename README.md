@@ -7,10 +7,10 @@ Well wonder no longer, since this code generalizes the game to any variant that 
 
 Okay, what does a "fair SW chart" mean? 
 A rock-paper-scissors variant must have:
-* n number of weapons; n = 2k + 3 ∧ k ∈ ℕ ∪ {0}
+* n number of weapons; n = 2k + 1 ∧ k ∈ ℕ > 0
 * each weapon must be:
-  * strong against one half of weapons
-  * weak to the remaining half of weapons.
+  * strong against k weapons
+  * weak to the remaining k weapons.
 
 The "up to rotation" part will be explained later.
 
