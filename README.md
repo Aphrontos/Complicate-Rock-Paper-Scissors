@@ -48,15 +48,15 @@ What's the most neutral way to name categories?
 With numbers of course! 
 So relabelling the weapons to have numbers as names:
 
-X     | 1 | 2 | 3
+　    | 1 | 2 | 3
 ----- | - | - | -
-**1** | D    | W     | L
-**2** | L    | D     | W
-**3** | W    | L     | D
+**1** | D | W | L
+**2** | L | D | W
+**3** | W | L | D
 
 An example with 5 weapons:
 
-X     | 1 | 2 | 3 | 4 | 5
+　    | 1 | 2 | 3 | 4 | 5
 ----- | - | - | - | - | -
 **1** | D | W | W | L | L
 **2** | L | D | W | W | L
@@ -66,8 +66,7 @@ X     | 1 | 2 | 3 | 4 | 5
 
 The above is the "base" 5-weapon SWLAM. 
 As discussed earlier, each weapon is weak to 2 other and strong against the remaining 2.
-
-If the above algorithm is applied, this gives a new but fair SWLAM.
+If the above algorithm is applied, this gives a new but fair SWLAM:
 
 　    | 1 | 2 | 3 | 4 | 5
 ----- | - | - | - | - | -
