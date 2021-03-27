@@ -3,7 +3,7 @@
 Ǹolaniirrarat [ŋo̞̼.lä<sup>β</sup>.niːɹ.ɹä<sup>β</sup>.ɹä<sup>β</sup>t] is Koiné Gilis for "Odd Cyclic Weapons."
 The traditional game of rock paper scissors only has 3 weapons. 
 Have you ever wondered how a variant with more than 3 weapons work, but are too lazy to compute the strength and weaknesses?
-Well wonder no long, since this code generalizes the game to any variant that has a fair strengths and weaknesses chart (SWC) up to rotation.
+Well wonder no longer, since this code generalizes the game to any variant that has a fair strengths and weaknesses chart (SWC) up to rotation.
 
 Okay, what does a "fair SW chart" mean? 
 A rock-paper-scissors variant must have:
