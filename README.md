@@ -18,19 +18,19 @@ Throughtout the guide, SW Labeled Adjacency Matrices (SWLAMs) will be used. Why?
 
 The SWLAM of the traditional rock-paper-scissors:
 
-　           | Paper | Rock | Scissors
------------- | ----- | ---- | --------
-**Paper**    | D	    | L	   | W
-**Rock**     | W	    | D	   | L
-**Scissors** | L	    | W	   | D
+　           | Rock | Paper | Scissors
+------------ | ---- | ----- | --------
+**Rock**     | D	   | L	    | W
+**Paper**    | W	   | D	    | L
+**Scissors** | L	   | W	    | D
 
 
 The SWLAM of the other variant:
 
-　           | Rock | Paper | Scissors
+　           | Paper | Rock | Scissors
 ------------ | ---- | ----- | --------
-**Rock**     | D    | W     | L
-**Paper**    | L    | D     | W
+**Paper**    | D    | W     | L
+**rock**     | L    | D     | W
 **Scissors** | W    | L     | D
 
 
