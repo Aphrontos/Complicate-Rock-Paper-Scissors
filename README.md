@@ -121,7 +121,7 @@ And relabel them such that:
 -1 | 1  | -1 | 0  | 1
 1  | 1  | -1 | -1 | 0
 
-Then this decribes a directed graph. Specifically the SW chart for the respective variant code.
+Then this decribes a directed graph. Specifically the SWC for the respective variant code.
 
 # Patch Notes
 ## 1.0 
@@ -138,7 +138,7 @@ Then this decribes a directed graph. Specifically the SW chart for the respectiv
 
 ## 1.3
 * Solved the useless warnings
-* Increased the display size of the SW Chart
+* Increased the display size of the SWC
 * Added the choice to change the amount of weapons
 * Added Player class, but is unused
 
