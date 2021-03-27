@@ -7,7 +7,7 @@ Well wonder no longer, since this code generalizes the game to any variant that 
 
 Okay, what does a "fair SW chart" mean? 
 A rock-paper-scissors variant must have:
-* n number of weapons; n = 2k + 1 ∧ k ∈ ℕ > 0
+* n number of weapons; {n | n = 2k + 1 ∧ k ∈ ℕ > 0}
 * each weapon must be:
   * strong against k weapons
   * weak against the remaining k weapons.
