@@ -14,31 +14,33 @@ A rock-paper-scissors variant must have:
 
 The "up to rotation" part will be explained later.
 
-Throughtout the guide, SW Labeled Adjacency Matrices (SWLAMs) will be used. Why? Because explaining how the variants work will be so much easier.
+Throughtout the guide, SW Labeled Adjacency Matrices (SWLAMs) will be used. Why? Because explaining how the variants work will be so much easier. SWLAMs are read as: row verdict column
 
 The SWLAM of the traditional rock-paper-scissors:
 
-X            | Rock | Paper | Scissors
------------- | ---- | ----- | --------
-**Rock**     | D    | W     | L
-**Paper**    | L    | D     | W
-**Scissors** | W    | L     | D
-
-The SWLAM of a variant:
-
-X            | Paper | Rock | Scissors
+　           | Paper | Rock | Scissors
 ------------ | ----- | ---- | --------
 **Paper**    | D	    | L	   | W
 **Rock**     | W	    | D	   | L
 **Scissors** | L	    | W	   | D
 
+
+The SWLAM of the other variant:
+
+　           | Rock | Paper | Scissors
+------------ | ---- | ----- | --------
+**Rock**     | D    | W     | L
+**Paper**    | L    | D     | W
+**Scissors** | W    | L     | D
+
+
 As is, this SWLAM describes the same variant as the above SWLAM, so relabelling the column and row headers is needed:
 
-X            | Rock | Paper | Scissors
+　           | Rock | Paper | Scissors
 ------------ | ---- | ----- | --------
-**Rock**     | D    | L     | W
-**Paper**    | W    | D     | L
-**Scissors** | L    | W     | D
+**Rock**     | D    | W     | L
+**Paper**    | L    | D     | W
+**Scissors** | W    | L     | D
 
 The above SWLAM doesn't really make any sense to the average person. 
 So another relabelling is needed. 
@@ -48,9 +50,9 @@ So relabelling the weapons to have numbers as names:
 
 X     | 1 | 2 | 3
 ----- | - | - | -
-**1** | D | L | W
-**2** | W | D | L
-**3** | L | W | D
+**1** | D    | W     | L
+**2** | L    | D     | W
+**3** | W    | L     | D
 
 An example with 5 weapons:
 
@@ -67,7 +69,7 @@ As discussed earlier, each weapon is weak to 2 other and strong against the rema
 
 If the rows and columns are rearranged and headers are relabeled, this gives a new but fair SWLAM.
 
-X     | 1 | 2 | 3 | 4 | 5
+　    | 1 | 2 | 3 | 4 | 5
 ----- | - | - | - | - | -
 **1** | D | L | W | W | L
 **2** | W | D | W | L | L
@@ -79,9 +81,9 @@ But, unfortunately, some information was lost.
 The variant code isn't known anymore. It has to be calculated for. 
 To fix this:
 
-X     | X     |  1  |  2  |  3  |  4  |  5
+　    | 　    |  1  |  2  |  3  |  4  |  5
 ----- | ----- | --- | --- | --- | --- | ---
-**X** | **X** | *2* | *1* | *3* | *4* | *5*
+　    | 　    | *2* | *1* | *3* | *4* | *5*
 **1** | *2*   |  D  |  L  |  W  |  W  |  L
 **2** | *1*   |  W  |  D  |  W  |  L  |  L
 **3** | *3*   |  L  |  L  |  D  |  W  |  W
