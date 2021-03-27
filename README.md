@@ -78,7 +78,7 @@ If the above algorithm is applied, this gives a new but fair SWLAM.
 **5** | W | W | L | L | D
 
 But, unfortunately, some information was lost. 
-The variant code isn't known anymore. It has to be calculated for. 
+The variant code isn't readily known anymore. It has to be calculated for. 
 To fix this:
 
 　    | 　    |  1  |  2  |  3  |  4  |  5
