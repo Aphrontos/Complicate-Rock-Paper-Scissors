@@ -10,7 +10,7 @@ A rock-paper-scissors variant must have:
 * n number of weapons; n = 2k + 1 ∧ k ∈ ℕ > 0
 * each weapon must be:
   * strong against k weapons
-  * weak to the remaining k weapons.
+  * weak against the remaining k weapons.
 
 The "up to rotation" part will be explained later.
 
