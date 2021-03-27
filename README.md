@@ -147,7 +147,7 @@ Then this decribes a directed graph. Specifically the SWC for the respective var
 # USAGE
 ## Offline
 1. Install Python and Jupyter Notebook.
-2. Download Ǹolaniirrarat.ipynb from this repository. Make sure your Python version is at least 3.9
+2. Make sure your Python version is at least 3.9
 3. Make sure the following packages are installed:
     * numpy
     * matplotlib
@@ -155,6 +155,7 @@ Then this decribes a directed graph. Specifically the SWC for the respective var
     * pandas
     * random import
     * numba
+4. Download Ǹolaniirrarat.ipynb from this repository. 
 5. Run the Notebook. The Notebook will guide you through the step by step process.
 
 ## Online
