@@ -7,7 +7,7 @@ Well wonder no longer, since this code generalizes the game to any variant that 
 
 Okay, what does a "fair SW chart" mean? 
 A rock-paper-scissors variant must have:
-* n number of weapons; where n is an odd number at least 3.
+* an odd number, that's at least 3, of weapons.
 * each weapon must be strong against k weapons and weak against the remaining k weapons.
 
 The "up to rotation" part will be explained later.
