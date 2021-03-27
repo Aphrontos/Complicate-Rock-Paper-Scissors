@@ -3,7 +3,7 @@
 Ǹolaniirrarat [ŋo̞̼.lä<sup>β</sup>.niːɹ.ɹä<sup>β</sup>.ɹä<sup>β</sup>t] is Koiné Gilis for "Odd Cyclic Weapons."
 The traditional game of rock paper scissors only has 3 weapons. 
 Have you ever wondered how a variant with more than 3 weapons work, but are too lazy to compute the strength and weaknesses?
-Well wonder no long, since this code generalizes the game to any variant that has a fair strengths and weaknesses (SW) chart up to rotation.
+Well wonder no long, since this code generalizes the game to any variant that has a fair strengths and weaknesses chart (SWC) up to rotation.
 
 Okay, what does a "fair SW chart" mean? 
 A rock-paper-scissors variant must have:
@@ -94,6 +94,7 @@ The column and row in bold are the weapon names, while the column and row in ita
 
 Now, given this, there may seem to be 5! variations, but no there are actually only 4! variations, since each variation has 5 rotations.
 For example: 12345 and 23451 are the same SWLAM because they're rotations of each other.
+Think of it as rotating the SWC by one vertex.
 So in general, for n weapons, there are (n-1)! SWLAM variations.
 
 Now, why is a SWLAM an "adjacency matrix"? 
