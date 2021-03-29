@@ -153,7 +153,7 @@ From this paper: https://chamberland.math.grinnell.edu/papers/rps.pdf, when the 
     * matplotlib
     * networkx
     * pandas
-    * random import
+    * random
     * numba
 4. Download Ǹolaniirrarat.ipynb from this repository. 
 5. Run the Notebook. The Notebook will guide you through the step by step process.
