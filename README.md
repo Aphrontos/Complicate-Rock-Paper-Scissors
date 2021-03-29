@@ -167,8 +167,8 @@ From this paper: https://chamberland.math.grinnell.edu/papers/rps.pdf, when the 
 # TO-DO
 
 1. Allow renaming of weapons and rewording of how each beat one another 
-    * allow for this template: \[weapon 1\] \[method\] \[weapon 2\]
-    * Concrete example: Rock blunts Scissors
+    * Allow for this template: \[weapon 1\] \[method\] \[weapon 2\]
+        * Concrete example: Rock blunts Scissors
 3. Make a better UI
 4. Find a way to allow the players to access the variants outside of the current automorphism group
     * Formulate a naming scheme, if a way is found
