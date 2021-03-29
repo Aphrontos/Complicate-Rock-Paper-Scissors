@@ -120,6 +120,8 @@ And relabel them such that:
 
 Then this decribes a directed graph. Specifically the SWC for the respective variant code.
 
+From this paper: https://chamberland.math.grinnell.edu/papers/rps.pdf, when the number of weapons is at least 7, not all variants can be generated using the above method. The method can only generate the variants that are isomorphic to the trivial automorphism.
+
 # Patch Notes
 ## 1.0 
 * Initial Commit
