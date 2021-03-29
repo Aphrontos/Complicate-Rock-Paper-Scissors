@@ -168,4 +168,5 @@ From this paper: https://chamberland.math.grinnell.edu/papers/rps.pdf, when the 
 
 1. Allow renaming of weapons and how each beat one another
 2. Make a better UI
-3. Find a way to allow the players to get the variants outside of the current automorphism group.
+3. Find a way to allow the players to access the variants outside of the current automorphism group.
+    * Formulate a naming scheme, if a way is found.
